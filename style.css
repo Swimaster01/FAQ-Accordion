@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main page */
+main {
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Purple background */
+.purple-wallpaper {
+    width: 100%;
+    line-height: 0;
+}
+
+.purple-wallpaper img {
+    width: 100%;
+    display: block;
+}
+
+/* FAQ card */
+.card-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    max-width: 550px;
+
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Card header */
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.card-header img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Questions */
+.q1,
+.q2,
+.q3,
+.q4 {
+    width: 100%;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
