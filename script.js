@@ -1,8 +1,8 @@
 const buttons = document.querySelectorAll('.toggle-button');
 const answer = document.querySelector('.q1-answer');
 const icon = document.querySelector('.toggle-button img');
-const plusIcon = '/faq-accordion-main/assets/images/icon-plus.svg';
-const minusIcon = '/faq-accordion-main/assets/images/icon-minus.svg';
+const plusIcon = 'assets/images/icon-plus.svg';
+const minusIcon = 'assets/images/icon-minus.svg';
 
 
 buttons.forEach(function(button) {
