@@ -80,3 +80,44 @@ main {
     align-items: center;
     gap: 10px;
 }
+
+.question p {
+    font-weight: bold;
+}
+
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    color: #5b5b5b;
+    margin-top: 5px;
+
+}
+
+.answer.open {
+    max-height: 100px;
+    opacity: 1;
+    transition-timing-function: ease-in-out;
+    color: #5b5b5b;
+    
+}
+
+
+.toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    
+    .purple-wallpaper img {
+        content: url('/faq-accordion-main//assets/images/background-pattern-mobile.svg');
+    }
+}
